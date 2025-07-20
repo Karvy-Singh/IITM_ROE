@@ -1,0 +1,23 @@
+name: 🧮 Sum All Table Numbers
+
+on:
+  workflow_dispatch:
+
+jobs:
+  sum-tables:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout code' 
+        uses: actions/checkout@v3
+
+      - name: 'Install Node.js (to run Playwright)' 
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: 'Install dependencies – 24f2001127@ds.study.iitm.ac.in'
+        run: npm ci
+
+      - name: 'Run scraper and sum tables'
+        run: node sumTables.js
+

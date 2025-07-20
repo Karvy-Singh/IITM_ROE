@@ -1,0 +1,23 @@
+{
+  "name": "iitm_roe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karvy-Singh/IITM_ROE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karvy-Singh/IITM_ROE/issues"
+  },
+  "homepage": "https://github.com/Karvy-Singh/IITM_ROE#readme",
+  "dependencies": {
+    "playwright": "^1.54.1"
+  }
+}
